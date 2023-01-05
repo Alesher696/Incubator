@@ -1,17 +1,26 @@
 .message {
-
+text-align: right;
 }
 
 .imageAndText {
+    padding-top: 1em;
 
 }
 
 .imageAndText img {
+    width: 50px;
+    margin-inline: 1em;
 
 }
 
 .text {
-
+    display: inline-block;
+    background-color: #0059b3;
+    border-radius: 10px;
+    padding: 0.5em;
+    /*position:relative;*/
+    /*bottom: 4em;*/
+    /*right: 5em*/
 }
 
 .text:after {
@@ -19,13 +28,17 @@
 }
 
 .name {
-
+    text-align: right;
+    margin-right: 10px;
+    color: #FFFFFF;
 }
 
 .messageText {
-
+    text-align: right;
+    margin-right: 10px;
+    color: #FFFFFF;
 }
 
 .time {
-
+    margin-inline: 1em;
 }

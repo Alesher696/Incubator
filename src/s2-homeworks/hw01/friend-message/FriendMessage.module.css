@@ -7,11 +7,15 @@
 }
 
 .friendImageAndText img {
-
+    width: 50px;
+    margin-inline: 1em;
 }
 
 .friendText {
-
+    display: inline-block;
+    background-color: #bdbdbd;
+    border-radius: 10px;
+    padding: 0.5em;
 }
 
 .friendText:after {
@@ -19,13 +23,15 @@
 }
 
 .friendName {
-
+    text-align: left;
+    margin-left: 10px;
 }
 
 .friendMessageText {
-
+    text-align: left;
+    margin-left: 10px;
 }
 
 .friendTime {
-
+    margin-inline: 1em;
 }
