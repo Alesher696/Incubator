@@ -3,13 +3,18 @@
     margin: 0 auto;
     width: 900px;
 
+    border-bottom: 1px solid #e8ebef;
+
 }
 
 .hw {
-
+    margin-bottom: 2em;
 }
 
 .hwTitle {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #e8ebef;
 
 }
 

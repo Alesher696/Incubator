@@ -1,19 +1,23 @@
 .friendMessage {
-
+    display: block;
+    padding-top: 1em;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    padding-top: 1em;
+    align-items: end;
 }
 
 .friendImageAndText img {
-    width: 50px;
+    width: 40px;
+    height: 40px;
     margin-inline: 1em;
 }
 
 .friendText {
     display: inline-block;
-    background-color: #bdbdbd;
+    background-color: #e8ebef;
     border-radius: 10px;
     padding: 0.5em;
 }
@@ -33,5 +37,9 @@
 }
 
 .friendTime {
-    margin-inline: 1em;
+    margin-left: 3.2em;
+    display: flex;
+    align-items: end;
+    font-size: 0.5em;
+
 }

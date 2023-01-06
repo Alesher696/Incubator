@@ -1,15 +1,19 @@
 .message {
-text-align: right;
+    display: block;
 }
 
 .imageAndText {
     padding-top: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
 
 }
 
 .imageAndText img {
-    width: 50px;
-    margin-inline: 1em;
+    width: 40px;
+    height: 40px;
+    margin-left: 1em;
 
 }
 
@@ -18,9 +22,6 @@ text-align: right;
     background-color: #0059b3;
     border-radius: 10px;
     padding: 0.5em;
-    /*position:relative;*/
-    /*bottom: 4em;*/
-    /*right: 5em*/
 }
 
 .text:after {
@@ -37,8 +38,14 @@ text-align: right;
     text-align: right;
     margin-right: 10px;
     color: #FFFFFF;
+
 }
 
+
 .time {
-    margin-inline: 1em;
+    flex-direction: row-reverse;
+    margin-right: 1.3em;
+    display: flex;
+    align-items: end;
+    font-size: 0.5em;
 }
