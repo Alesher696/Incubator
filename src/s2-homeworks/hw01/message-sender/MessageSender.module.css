@@ -13,6 +13,10 @@
     background-color: #e8ebef;
     margin-inline: 2em;
     border-radius: 20px;
+    resize: none;
+    height: 4em;
+    box-sizing: border-box;
+
 
 }
 
