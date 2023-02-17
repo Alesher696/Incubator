@@ -15,10 +15,19 @@
     margin-inline: 1em;
 }
 
+
+.frTriangle{
+    width: 15px;
+    height: 15px;
+    background:radial-gradient(circle at 0 0 , rgba(0,0,0,0)15px, rgba(232, 235, 239, 100) 0) ;
+}
+
 .friendText {
     display: inline-block;
     background-color: #e8ebef;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 0.5em;
 }
 

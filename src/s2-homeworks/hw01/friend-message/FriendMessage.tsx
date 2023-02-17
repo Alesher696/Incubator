@@ -17,7 +17,9 @@ const FriendMessage = (props: MessagePropsType) => {
                     src = {props.message.user.avatar}
                     //
                 />
+                <div className={s.frTriangle}></div>
                 <div className={s.friendText}>
+
                     <div
                         id={'hw1-friend-name-' + props.message.id}
                         className={s.friendName}
@@ -26,6 +28,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         {props.message.user.name}
                         {/**/}
                     </div>
+
                     <pre
                         id={'hw1-friend-text-' + props.message.id}
                         className={s.friendMessageText}
